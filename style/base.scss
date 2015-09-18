@@ -11,6 +11,9 @@ body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+	color: #555;
 
 	h1{
 		font-weight: 700;
@@ -20,12 +23,14 @@ body{
 
 header{
 	position: fixed;
-	height: 600px;
+	height: 100px;
 	width: 100%;
 	top: 0;
 	z-index: -1;
 	background: url('../images/bg.jpg') no-repeat;
+	// background-attachment: fixed;
 	background-position: 66% 10%;
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -35,6 +40,7 @@ header{
 
 	a{
 		text-decoration: none;
+		display: inline-block;
 	}
 
 	a:hover{
@@ -61,16 +67,60 @@ section{
 	height: 100px;
 	width: 100%;
 	z-index: 100;
+	padding: 26px;
+
+	.iconbox-link{
+		background: #659EFF;
+		padding: 10px;
+		border: 1px solid #fff;
+		display: inline-block;
+		border-radius: 4px;
+		margin-right: 8px;
+
+		-webkit-transition: all 0.18s ease-in-out;
+		-moz-transition: all 0.18s ease-in-out;
+		-ms-transition: all 0.18s ease-in-out;
+		-o-transition: all 0.18s ease-in-out;
+		transition: all 0.18s ease-in-out;
+
+		img{
+			background: #659EFF;
+			height: 100%;
+		}
+	}
+
+	.iconbox-link:hover{
+		opacity: 0.8;
+		border: 1px solid #659EFF;
+
+		-webkit-transition: all 0.18s ease-in-out;
+		-moz-transition: all 0.18s ease-in-out;
+		-ms-transition: all 0.18s ease-in-out;
+		-o-transition: all 0.18s ease-in-out;
+		transition: all 0.18s ease-in-out;
+	}
 }
 
 #my-work{
-	background: #f1f1f1;
+	background: #e8e8e8;
 	padding: 100px 0px;
 
+	.my-work-canvas{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
 	.work-object{
-		background: #aaa;
-		border-radius: 4px;
-		min-height: 160px;
+		margin-bottom: 30px;
+
+		a{
+
+			img{
+				border-radius: 4px;
+				width: 100%;
+			}
+		}
 	}
 }
 
@@ -78,5 +128,11 @@ section{
 	background: #fff;
 	padding: 100px 0px;
 
-	
+
+}
+
+footer{
+	padding: 4px 0px;
+	background: #12292A;
+	color: #666;
 }

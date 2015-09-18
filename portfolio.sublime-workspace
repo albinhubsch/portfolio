@@ -523,7 +523,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1363,
+				"buffer_size": 1596,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "style/base.scss",
 			"settings":
 			{
-				"buffer_size": 882,
+				"buffer_size": 1032,
 				"line_ending": "Unix"
 			}
 		}
@@ -1093,15 +1093,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1363,
+						"buffer_size": 1596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								712,
-								712
+								635,
+								635
 							]
 						],
 						"settings":
@@ -1114,7 +1114,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1158,15 +1158,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 882,
+						"buffer_size": 1032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								679,
-								679
+								239,
+								239
 							]
 						],
 						"settings":
@@ -1176,10 +1176,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 99.0,
+						"translation.y": 169.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1213,7 +1213,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.522208452016,
 			1.0
 		],
 		"rows":
@@ -1441,7 +1441,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
