@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"targe",
+				"target=\"_blank"
+			],
+			[
+				"targ",
+				"target=\"_blank"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
 				"bg",
 				"bg	background: #${1:000};"
 			],
@@ -502,18 +514,6 @@
 			[
 				"Auth",
 				"AuthenticationController"
-			],
-			[
-				"show",
-				"showIndex"
-			],
-			[
-				"margn",
-				"margin-left"
-			],
-			[
-				"marg",
-				"margin-left"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1596,
+				"buffer_size": 3709,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "style/base.scss",
 			"settings":
 			{
-				"buffer_size": 1032,
+				"buffer_size": 2888,
 				"line_ending": "Unix"
 			}
 		}
@@ -794,6 +794,7 @@
 	],
 	"file_history":
 	[
+		"/Users/albin/Development/portfolio/js/jribbble.js",
 		"/Users/albin/Dropbox/arbete/tempus/Tempus Website/wp-build/api/index.php",
 		"/Users/albin/Dropbox/arbete/tempus/Tempus Website/wp-build/wp-content/themes/tp15/html_inc/call_me.php",
 		"/Users/albin/Dropbox/arbete/tempus/Tempus Website/wp-build/wp-content/themes/tp15/login.php",
@@ -920,8 +921,7 @@
 		"/Applications/MAMP/htdocs/lucy-light/app/database/seeds/DatabaseSeeder.php",
 		"/Applications/MAMP/htdocs/lucy-light/app/database/seeds/UserTableSeed",
 		"/Applications/MAMP/htdocs/lucy-light/app/models/Moves.php",
-		"/Applications/MAMP/htdocs/lucy-light/app/views/authentication/start.blade.php",
-		"/Applications/MAMP/htdocs/lucy-light/app/config/database.php"
+		"/Applications/MAMP/htdocs/lucy-light/app/views/authentication/start.blade.php"
 	],
 	"find":
 	{
@@ -939,6 +939,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"18",
+			"0.3",
 			"lg",
 			"center",
 			"font-size: 14px;",
@@ -1064,9 +1066,7 @@
 			"#",
 			"flex-next",
 			".flex-direction-nav a",
-			"#subbody .flex-direction-nav a, .light-menu #subbody .nvrtrotating .flex-direction-nav a",
-			"./Flip Fullscreen Slider   Just another Novaro Wordpress Demo Sites site_files/interfeisstudio-220x104.png",
-			"Flip Fullscreen Slider   Just another Novaro Wordpress Demo Sites site_files/novarostudio-220x104.png"
+			"#subbody .flex-direction-nav a, .light-menu #subbody .nvrtrotating .flex-direction-nav a"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1093,15 +1093,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1596,
+						"buffer_size": 3709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								635,
-								635
+								488,
+								488
 							]
 						],
 						"settings":
@@ -1114,7 +1114,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1158,15 +1158,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1032,
+						"buffer_size": 2888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								250,
+								250
 							]
 						],
 						"settings":
@@ -1176,10 +1176,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 169.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1441,7 +1441,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

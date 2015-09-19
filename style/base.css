@@ -3,6 +3,29 @@
  * COPYRIGHT 2015 - ALBIN HUBSCH
  * 
  */
+.text-center {
+  text-align: center; }
+
+.rm-mp {
+  margin: 0;
+  padding: 0; }
+
+.short-hr {
+  width: 60px;
+  height: 4px;
+  border: none;
+  background: #ddd;
+  margin: 0; }
+
+a {
+  color: #555;
+  text-decoration: underline; }
+  a img {
+    margin-top: -3px; }
+
+a:hover {
+  color: #659EFF; }
+
 body {
   background: #666;
   font-family: 'Lato', sans-serif;
@@ -50,13 +73,17 @@ section {
   height: 100px;
   width: 100%;
   z-index: 100;
-  padding: 26px; }
+  padding: 26px 0px; }
+  #main-nav nav {
+    margin: 0;
+    padding: 0; }
   #main-nav .iconbox-link {
     background: #659EFF;
     padding: 10px;
     border: 1px solid #fff;
     display: inline-block;
     border-radius: 4px;
+    margin: 0;
     margin-right: 8px;
     -webkit-transition: all 0.18s ease-in-out;
     -moz-transition: all 0.18s ease-in-out;
@@ -86,7 +113,22 @@ section {
     margin-bottom: 30px; }
     #my-work .work-object a img {
       border-radius: 4px;
-      width: 100%; }
+      width: 100%;
+      background: #D8D8D8;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out; }
+    #my-work .work-object a:hover img {
+      opacity: 0.8;
+      box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.46);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
 
 #about-me {
   background: #fff;
@@ -96,5 +138,14 @@ footer {
   padding: 4px 0px;
   background: #12292A;
   color: #666; }
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #my-work, #about-me {
+    padding: 60px 0px; } }
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
 
 /*# sourceMappingURL=base.css.map */
