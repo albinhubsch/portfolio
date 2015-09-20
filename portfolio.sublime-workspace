@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"sc",
+				"scrollDown	(portfolio-js.js)"
+			],
+			[
+				"hu",
+				"hubsch@gmail"
+			],
+			[
 				"targe",
 				"target=\"_blank"
 			],
@@ -506,14 +514,6 @@
 			[
 				"token",
 				"token_type"
-			],
-			[
-				"access",
-				"access_token"
-			],
-			[
-				"Auth",
-				"AuthenticationController"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 3709,
+				"buffer_size": 5295,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "js/portfolio-js.js",
 			"settings":
 			{
-				"buffer_size": 195,
+				"buffer_size": 376,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "style/base.scss",
 			"settings":
 			{
-				"buffer_size": 2888,
+				"buffer_size": 4589,
 				"line_ending": "Unix"
 			}
 		}
@@ -567,8 +567,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 139.0,
-		"last_filter": "insta",
+		"height": 173.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -939,6 +939,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"all 0.18s ease-in-out",
+			"min",
 			"18",
 			"0.3",
 			"lg",
@@ -1064,9 +1066,7 @@
 			"list1",
 			"list2",
 			"#",
-			"flex-next",
-			".flex-direction-nav a",
-			"#subbody .flex-direction-nav a, .light-menu #subbody .nvrtrotating .flex-direction-nav a"
+			"flex-next"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1093,15 +1093,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3709,
+						"buffer_size": 5295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								488,
-								488
+								4872,
+								4872
 							]
 						],
 						"settings":
@@ -1111,7 +1111,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2045.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1123,27 +1123,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								366,
+								366
 							]
 						],
 						"settings":
 						{
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1158,15 +1159,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2888,
+						"buffer_size": 4589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								1300,
+								1300
 							]
 						],
 						"settings":
@@ -1176,10 +1177,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 762.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
