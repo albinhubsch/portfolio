@@ -31,6 +31,13 @@ php?>
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<a href="#" onclick="Scroll.scrollDown()" id="go-down-btn" class="theme-btn-white"><img src="./images/chevron-down-icon.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
 	</header>
 	<section id="main-nav">
 		<div class="container">
@@ -65,12 +72,20 @@ php?>
 	<section id="about-me">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-5 col-sm-6">
 					<h2>Hi, my name is Albin</h2>
 					<hr class="short-hr">
 					<p>
 						So, apparently you already know my name and that's an awesome start! But I guess you don't know much about my education and experiences. I'm in my fifth year and close to receive my Master of Science in Engineering, Interaction & Design. Beside my studies I have years of work experience as an Web-Developer, Designer and also Interaction Designer. I'm proud of what I've achieved and love all what I do. I love making new friends so please, don't hesitate to get in touch!
 					</p>
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1 text-center">
+					<div class="mtop hidden-xs"></div>
+					<p style="color: #bbb; margin-top: 30px;">
+						Write me a line and I'll send you a copy of my CV.
+					</p>
+					<br>
+					<a href="mailto:albin.hubsch@gmail.com" class="theme-btn">Get a full copy of my CV</a>
 				</div>
 			</div>
 		</div>
@@ -81,7 +96,7 @@ php?>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<p style="font-size:12px;">Copyright &copy; Albin Hübsch <?=date('Y')?></p>
+					<p style="font-size:12px;">Copyright &copy; Albin Hübsch <?=date('Y')?> - albin.hubsch@gmail.com</p>
 				</div>
 			</div>
 		</div>
@@ -92,6 +107,15 @@ php?>
 	<script src="./js/jribbble.js"></script>
 	<script>
 		header.setHeight();
+
+		// $(window).resize(function() {
+		// 	header.setHeight();
+		// });
+
+		// Listen for orientation changes
+		window.addEventListener("orientationchange", function() {
+			header.setHeight();
+		}, false);
 
 		$.jribbble.setToken('0dffa499fe2fef6b34901a3717ca64a305706432e70075441c8a747e84230993');
 

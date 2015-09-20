@@ -15,6 +15,10 @@ $theme-color: #659EFF;
 	padding: 0;
 }
 
+.mtop{
+	margin-top: 80px;
+}
+
 .short-hr{
 	width: 60px;
 	height: 4px;
@@ -35,6 +39,52 @@ a{
 
 a:hover{
 	color: $theme-color;
+}
+
+.theme-btn, .theme-btn-white{
+	border: 1px solid $theme-color;
+	border-radius: 4px;
+	padding: 14px 20px;
+	text-decoration: none;
+	// margin-top: 6px;
+	color: #fff;
+	background: $theme-color;
+
+	-webkit-transition: all 0.18s ease-in-out;
+	-moz-transition: all 0.18s ease-in-out;
+	-ms-transition: all 0.18s ease-in-out;
+	-o-transition: all 0.18s ease-in-out;
+	transition: all 0.18s ease-in-out;
+}
+
+.theme-btn:hover, .theme-btn-white:hover{
+	text-decoration: none;
+	border: 1px solid $theme-color;
+	color: #fff;
+	opacity: 0.8;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.36);
+
+	-webkit-transition: all 0.18s ease-in-out;
+	-moz-transition: all 0.18s ease-in-out;
+	-ms-transition: all 0.18s ease-in-out;
+	-o-transition: all 0.18s ease-in-out;
+	transition: all 0.18s ease-in-out;
+}
+
+.theme-btn-white{
+	background: #fff;
+	border: 1px solid #fff;
+	padding: 12px 10px 8px 10px;
+
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.theme-btn-white:hover{
+	border: 1px solid #fff;
 }
 
 body{
@@ -70,6 +120,12 @@ header{
 	background-size: cover;
 
 	padding-top: 30px;
+
+	#go-down-btn{
+		position: absolute;
+		margin-top: 0px;
+		right: 15px;
+	}
 
 	a{
 		text-decoration: none;
@@ -110,7 +166,7 @@ section{
 	.iconbox-link{
 		background: $theme-color;
 		padding: 10px;
-		border: 1px solid #fff;
+		border: 1px solid $theme-color;
 		display: inline-block;
 		border-radius: 4px;
 		margin: 0;
@@ -131,6 +187,7 @@ section{
 	.iconbox-link:hover{
 		opacity: 0.8;
 		border: 1px solid $theme-color;
+		box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.36);
 
 		-webkit-transition: all 0.18s ease-in-out;
 		-moz-transition: all 0.18s ease-in-out;
