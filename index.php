@@ -9,13 +9,13 @@ php?>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="description" content="Online portfolio - Albin Hübsch">
+	<meta name="keywords" content="portfolio albin hubsch hübsch">
 	<meta name="author" content="Albin Hubsch">
 
 	<meta name="theme-color" content="#12292A">
 
-	<title>Albin Hübsch</title>
+	<title>Albin Hübsch | Online Portfolio</title>
 
 	<!-- INCLUDE STYLESHEETS -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
