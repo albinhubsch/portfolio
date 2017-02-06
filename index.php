@@ -1,147 +1,81 @@
-<?php
-
-php?>
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Albin Hübsch</title>
 
-	<meta name="description" content="Online portfolio - Albin Hübsch">
-	<meta name="keywords" content="portfolio albin hubsch hübsch">
-	<meta name="author" content="Albin Hubsch">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#348AC7">
 
-	<meta name="theme-color" content="#12292A">
+		<link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans" rel="stylesheet">
 
-	<title>Albin Hübsch | Online Portfolio</title>
+		<style media="screen">
+			body, html{
+				padding: 0;
+				margin: 0;
+				height: 100%;
+				width: 100%;
+				font-family: 'Open Sans', sans-serif;
+				font-family: 'Changa One', cursive;
+				color: #fff;
+			}
 
-	<!-- INCLUDE STYLESHEETS -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="./style/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./style/base.css">
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<a href="./"><h1>Albin Hübsch</h1></a>
-				</div>
+			.bg{
+				height: 100%;
+				width: 100%;
+				background: #7474BF; /* fallback for old browsers */
+				background: -webkit-linear-gradient(to left, #7474BF , #348AC7); /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to left, #7474BF , #348AC7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			h1{
+				font-weight: 400;
+				font-size: 46px;
+				margin: 0;
+				padding: 0;
+			}
+
+			p{
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+				margin-top: 10px;
+				text-align: center;
+			}
+
+			a{
+				color: white;
+			}
+
+			.header{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="bg">
+			<div class="header">
+				<h1>Albin Hübsch</h1>
+				<p>See my resume at <a href="https://se.linkedin.com/in/albinhubsch">LinkedIn</a></p>
+				<p>You can also send me an email at <a href="mailto:albin.hubsch@gmail.com">albin.hubsch@gmail.com</a></p>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<a href="#" onclick="Scroll.scrollDown()" id="go-down-btn" class="theme-btn-white"><img src="./images/chevron-down-icon.svg" alt=""></a>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section id="main-nav">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<nav>
-						<a id="" class="iconbox-link" href="mailto:albin.hubsch@gmail.com" title="Send an email to Albin"><img src="./images/mail-icon.svg" alt="email-icon"></a>
 
-						<a id="" class="iconbox-link" href="https://se.linkedin.com/in/albinhubsch" target="_blank" title="Albin's LinkedIn"><img src="./images/linkedin-icon.svg" alt="linkedin-icon"></a>
+	</body>
 
-						<a class="iconbox-link" href="https://dribbble.com/albinhubsch" target="_blank" title="Albin's Dribbble"><img src="./images/dribbble-icon.svg" alt="dribbble-icon"></a>
-
-						<a class="iconbox-link" href="https://github.com/albinhubsch" target="_blank" title="Albin's GitHub"><img src="./images/github-icon.svg" alt="github-icon"></a>
-
-						<a id="" class="iconbox-link" href="https://instagram.com/albinhubsch/" target="_blank" title="Albin's Instagram"><img src="./images/instagram-icon.svg" alt="instagram-icon"></a>
-
-						<!-- <a id="" class="iconbox-link" href="skype:albin.hubsch?call"><img src="./images/skype-icon.svg" alt="skype-icon"></a> -->
-					</nav>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="my-work">
-		<div class="container">
-			<ul class="row my-work-canvas">
-			</ul>
-			<div class="col-md-12 text-center rm-mp">
-				<a href="https://dribbble.com/albinhubsch" target="_blank"><img src="/images/grid-icon.svg" alt="">See more work by me</a>
-			</div>
-		</div>
-	</section>
-	<section id="about-me">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5 col-sm-6">
-					<h2>Hi, my name is Albin</h2>
-					<hr class="short-hr">
-					<p>
-						So, apparently you already know my name and that's an awesome start! But I guess you don't know much about my education and experiences. I'm in my fifth year and close to receive my Master of Science in Engineering, Interaction & Design. Beside my studies I have years of work experience as an Web-Developer, Designer and also Interaction Designer. I'm proud of what I've achieved and love all what I do. I love making new friends so please, don't hesitate to get in touch!
-					</p>
-				</div>
-				<div class="col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1 text-center">
-					<div class="mtop hidden-xs"></div>
-					<p style="color: #bbb; margin-top: 30px;">
-						Write me a line and I'll send you a copy of my CV.
-					</p>
-					<br>
-					<a href="mailto:albin.hubsch@gmail.com" class="theme-btn">Get a full copy of my CV</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="section-title"></div>
-	<div class="shots"></div>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<p style="font-size:12px;">Copyright &copy; Albin Hübsch <?=date('Y')?> - albin.hubsch@gmail.com</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="./js/portfolio-js.js"></script>
-	<script src="./js/jribbble.js"></script>
 	<script>
-		header.setHeight();
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		// $(window).resize(function() {
-		// 	header.setHeight();
-		// });
-
-		// Listen for orientation changes
-		window.addEventListener("orientationchange", function() {
-			header.setHeight();
-		}, false);
-
-		$.jribbble.setToken('0dffa499fe2fef6b34901a3717ca64a305706432e70075441c8a747e84230993');
-
-		$.jribbble.users('albinhubsch').shots({per_page: 8}).then(function(shots) {
-			var html = [];
-
-			shots.forEach(function(shot) {
-				html.push('<li class="work-object col-md-3 col-sm-4 col-xs-6">');
-				html.push('<a href="' + shot.html_url + '" target="_blank">');
-				html.push('<img src="' + shot.images.normal + '">');
-				html.push('</a></li>');
-			});
-		  
-			$('.my-work-canvas').html(html.join(''));
-		});
-
+		ga('create', 'UA-27195757-1', 'auto');
+		ga('send', 'pageview');
 	</script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-27195757-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-</body>
 </html>
